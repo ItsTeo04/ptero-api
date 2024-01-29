@@ -33,7 +33,7 @@
   },
   "scripts": {
     "post-install-install": [
-      "mv vendor/itsteo wemx/vendor/gigabait"
+      "mv vendor/itsteo vendor/gigabait"
     ]
   },
   "extra": {
