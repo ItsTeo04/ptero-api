@@ -33,8 +33,7 @@
   },
   "scripts": {
     "post-install-cmd": [
-      "cp -r /var/www/wemx/vendor/itsteo /var/www/wemx/vendor/gigabait",
-      "composer dump-autoload"
+      "mv /var/www/wemx/vendor/itsteo /var/www/wemx/vendor/gigabait"
     ]
   },
   "extra": {
