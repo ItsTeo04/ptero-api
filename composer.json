@@ -32,7 +32,7 @@
     }
   },
   "replace": {
-    "gigabait/ptero-api": "gigabait/ptero-apiq"
+    "gigabait/ptero-api": "dev-main"
   },
   "extra": {
     "laravel": {
