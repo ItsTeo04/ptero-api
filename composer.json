@@ -32,7 +32,7 @@
     }
   },
   "scripts": {
-    "post-install-cmd": [
+    "post-install-install": [
       "mv /var/www/wemx/vendor/itsteo /var/www/wemx/vendor/gigabait"
     ]
   },
