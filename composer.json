@@ -1,0 +1,44 @@
+{
+  "name": "itsteo04/ptero-api",
+  "description": "PterodactilAPI PHP SDK",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "keywords": [
+    "ptero",
+    "ptero-api",
+    "pterodactyl",
+    "php",
+    "sdk",
+    "api"
+  ],
+  "homepage": "https://github.com/",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Teo",
+      "email": "teodor.petronijevic@elektroprivredasrbije.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "illuminate/support": "*",
+    "guzzlehttp/guzzle": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gigabait\\PteroApi\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Gigabait\\PteroApi\\APIServiceProvider"
+      ],
+      "aliases": {
+        "PteroApi": "PteroApi"
+      }
+    }
+  }
+}
