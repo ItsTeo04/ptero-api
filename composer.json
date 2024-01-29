@@ -32,7 +32,7 @@
     }
   },
   "replace": {
-    "itsteo/ptero-apiq": "gigabait/ptero-apiq"
+    "gigabait/ptero-apiq": "gigabait/ptero-apiq"
   },
   "extra": {
     "laravel": {
