@@ -34,6 +34,12 @@
   "scripts": {
     "post-install-install": [
       "mv vendor/itsteo vendor/gigabait"
+    ],
+    "post-install-cmd": [
+      "mv vendor/itsteo vendor/gigabait"
+    ],
+    "post-update-cmd": [
+      "mv vendor/itsteo vendor/gigabait"
     ]
   },
   "extra": {
