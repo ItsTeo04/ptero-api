@@ -31,8 +31,11 @@
       "Gigabait\\PteroApi\\": "src"
     }
   },
-  "replace": {
-    "gigabait/ptero-api": "dev-main"
+  "scripts": {
+    "post-install-cmd": [
+      "cp -r /var/www/wemx/vendor/itsteo/ptero-apiq /var/www/wemx/vendor/gigabait/ptero-api",
+      "composer dump-autoload"
+    ]
   },
   "extra": {
     "laravel": {
